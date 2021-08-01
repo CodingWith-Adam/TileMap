@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: lightgrey;
+        text-align: center;
+      }
+      #game {
+        box-shadow: 10px 10px 15px black;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        background: linear-gradient(
+          0deg,
+          rgb(36, 141, 29) 0%,
+          rgb(17, 51, 161) 60%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Building a Tile Map</h1>
+      <canvas id="game"></canvas>
+    </div>
+    <script src="game.js" type="module"></script>
+  </body>
+</html>
